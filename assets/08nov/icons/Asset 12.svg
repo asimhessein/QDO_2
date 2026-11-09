@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 274.5 273.33">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: thmanyahsans-Regular, 'thmanyah sans';
+      }
+
+      .cls-1, .cls-2 {
+        font-size: 12px;
+      }
+
+      .cls-1, .cls-3 {
+        fill: #f3f3ef;
+      }
+
+      .cls-2 {
+        font-family: thmanyahsans-Light, 'thmanyah sans';
+        font-weight: 300;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #4c6788;
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="137.25" y1="273.33" x2="137.25" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f3f3ef"/>
+      <stop offset=".19" stop-color="#eaebe9"/>
+      <stop offset=".5" stop-color="#d1d8db"/>
+      <stop offset=".89" stop-color="#aab9c4"/>
+      <stop offset="1" stop-color="#9eb0bd"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <rect class="cls-5" width="274.5" height="273.33" rx="6" ry="6"/>
+      <text class="cls-1" transform="translate(86.27 31.15) scale(1.02 1)"><tspan x="0" y="0">لنكتب حكايتك التالية!</tspan></text>
+      <rect class="cls-3" x="37.75" y="53.33" width="199" height="36" rx="6" ry="6"/>
+      <rect class="cls-3" x="37.75" y="105.33" width="199" height="36" rx="6" ry="6"/>
+      <rect class="cls-3" x="37.75" y="157.33" width="199" height="36" rx="6" ry="6"/>
+      <rect class="cls-3" x="37.75" y="209.33" width="145.25" height="48" rx="6" ry="6"/>
+      <g>
+        <path class="cls-3" d="M198.75,233.33c0,6.07,4.93,11,11,11s11-4.93,11-11-4.92-11-11-11-11,4.92-11,11"/>
+        <path class="cls-4" d="M208.02,227.42l5.53,5.53s0,0,0,0c.1.1.16.24.16.38,0,.14-.05.27-.16.38,0,0,0,0,0,0l-5.53,5.53c-.21.21-.55.21-.75,0-.21-.21-.21-.55,0-.75l5.15-5.15-5.15-5.15c-.21-.21-.21-.55,0-.75.21-.21.55-.21.75,0"/>
+      </g>
+      <text class="cls-2" transform="translate(63.08 73.13)"><tspan x="0" y="0">(animated dropdown menu)</tspan></text>
+      <text class="cls-2" transform="translate(107.37 124.75)"><tspan x="0" y="0">*Full Name</tspan></text>
+      <text class="cls-2" transform="translate(119.77 176.75)"><tspan x="0" y="0">*Email</tspan></text>
+      <text class="cls-2" transform="translate(75.07 234.75)"><tspan x="0" y="0">*Tell Us More</tspan></text>
+    </g>
+  </g>
+</svg>

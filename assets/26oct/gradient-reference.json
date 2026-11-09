@@ -1,0 +1,15 @@
+{
+  "style": "completely smooth",
+  "confirmed_by_user": true,
+  "from": "#F3F3EF",
+  "to": {
+    "olive": "#848156",
+    "blue": "#4C6788",
+    "gray": "#D1D1CB"
+  },
+  "direction": {
+    "olive": "left to right",
+    "blue": "left to right",
+    "gray": "top to bottom"
+  }
+}

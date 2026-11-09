@@ -1,0 +1,80 @@
+# QDO static site. Upload alongside index.html in the domain document root.
+DirectoryIndex index.html
+ErrorDocument 404 /404.html
+<IfModule mod_mime.c>
+  AddType image/svg+xml .svg
+  AddType image/webp .webp
+  AddType font/otf .otf
+  AddType font/ttf .ttf
+  AddType video/mp4 .mp4
+  AddType application/javascript .js
+</IfModule>
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^lazoghly\-park/?$ project-lazoghly-park.html [R=301,L,NE]
+  RewriteRule ^concentrix\-for\-mavens\-consulting/?$ project-concentrix-for-mavens-consulting.html [R=301,L,NE]
+  RewriteRule ^crown\-central/?$ project-crown-central.html [R=301,L,NE]
+  RewriteRule ^waterway\-nc\-phase\-1/?$ project-waterway-nc-phase-1.html [R=301,L,NE]
+  RewriteRule ^as\-marassi\-residence/?$ project-as-marassi-residence.html [R=301,L,NE]
+  RewriteRule ^bianchi\-ilios/?$ project-bianchi-ilios.html [R=301,L,NE]
+  RewriteRule ^lklewis\-nc/?$ project-lklewis-nc.html [R=301,L,NE]
+  RewriteRule ^hsd\-law\-firm/?$ project-hsd-law-firm.html [R=301,L,NE]
+  RewriteRule ^marriott\-hurghada/?$ project-marriott-hurghada.html [R=301,L,NE]
+  RewriteRule ^sid\-nc/?$ project-sid-nc.html [R=301,L,NE]
+  RewriteRule ^park\-st/?$ project-park-st.html [R=301,L,NE]
+  RewriteRule ^terhab\-boutique\-hotel/?$ project-terhab-boutique-hotel.html [R=301,L,NE]
+  RewriteRule ^waterway\-nc\-phase\-2/?$ project-waterway-nc-phase-2.html [R=301,L,NE]
+  RewriteRule ^prime\-hacienda\-bay\-units/?$ project-prime-hacienda-bay-units.html [R=301,L,NE]
+  RewriteRule ^beatnic/?$ project-beatnic.html [R=301,L,NE]
+  RewriteRule ^robinson\-club/?$ project-robinson-club.html [R=301,L,NE]
+  RewriteRule ^titanic\-pearl\-hotel/?$ project-titanic-pearl-hotel.html [R=301,L,NE]
+  RewriteRule ^ourika/?$ project-ourika.html [R=301,L,NE]
+  RewriteRule ^ks\-almaza\-bay\-penthouse/?$ project-ks-almaza-bay-penthouse.html [R=301,L,NE]
+  RewriteRule ^what\-the\-fish/?$ project-what-the-fish.html [R=301,L,NE]
+  RewriteRule ^el\-sewedy\-development\-hub/?$ project-el-sewedy-development-hub.html [R=301,L,NE]
+  RewriteRule ^b\-auto\-showroom/?$ project-b-auto-showroom.html [R=301,L,NE]
+  RewriteRule ^reef\-town\-oasis\-somabay/?$ project-reef-town-oasis-somabay.html [R=301,L,NE]
+  RewriteRule ^bavaria\-serviced\-apartments/?$ project-bavaria-serviced-apartments.html [R=301,L,NE]
+  RewriteRule ^muse\-strip\-mall/?$ project-muse-strip-mall.html [R=301,L,NE]
+  RewriteRule ^calma\-art\-gallery/?$ project-calma-art-gallery.html [R=301,L,NE]
+  RewriteRule ^x\-strip\-mall/?$ project-x-strip-mall.html [R=301,L,NE]
+  RewriteRule ^ag\-palm\-hills\-residence/?$ project-ag-palm-hills-residence.html [R=301,L,NE]
+  RewriteRule ^marina\-bay\-somabay/?$ project-marina-bay-somabay.html [R=301,L,NE]
+  RewriteRule ^dn\-athens\-residence/?$ project-dn-athens-residence.html [R=301,L,NE]
+  RewriteRule ^orascom\-development\-pavilion/?$ project-orascom-development-pavilion.html [R=301,L,NE]
+  RewriteRule ^joubal\-gouna/?$ project-joubal-gouna.html [R=301,L,NE]
+  RewriteRule ^el\-sewedy\-infrastructure/?$ project-el-sewedy-infrastructure.html [R=301,L,NE]
+  RewriteRule ^seaside\-residence\-somabay/?$ project-seaside-residence-somabay.html [R=301,L,NE]
+  RewriteRule ^solaimanyah/?$ project-solaimanyah.html [R=301,L,NE]
+  RewriteRule ^teegan\-residence/?$ project-teegan-residence.html [R=301,L,NE]
+  RewriteRule ^el\-sewedy\-polymers/?$ project-el-sewedy-polymers.html [R=301,L,NE]
+  RewriteRule ^as\-almaza\-bay\-residence/?$ project-as-almaza-bay-residence.html [R=301,L,NE]
+  RewriteRule ^orabi\-office\-building/?$ project-orabi-office-building.html [R=301,L,NE]
+  RewriteRule ^mr\-new\-giza\-residence/?$ project-mr-new-giza-residence.html [R=301,L,NE]
+  RewriteRule ^el\-sewedy\-td\-marakez\-hq/?$ project-el-sewedy-td-marakez-hq.html [R=301,L,NE]
+  RewriteRule ^sd\-pyramid\-height\-residence/?$ project-sd-pyramid-height-residence.html [R=301,L,NE]
+  RewriteRule ^im\-uptown\-cairo\-residence/?$ project-im-uptown-cairo-residence.html [R=301,L,NE]
+  RewriteRule ^butchers\-burger/?$ project-butchers-burger.html [R=301,L,NE]
+  RewriteRule ^zamalek\-serviced\-lofts/?$ project-zamalek-serviced-lofts.html [R=301,L,NE]
+  RewriteRule ^lozano\-aromatherapy/?$ project-lozano-aromatherapy.html [R=301,L,NE]
+  RewriteRule ^souq\-masr/?$ project-souq-masr.html [R=301,L,NE]
+  RewriteRule ^nk\-palm\-hills\-residence/?$ project-nk-palm-hills-residence.html [R=301,L,NE]
+  RewriteRule ^buieten\-nc/?$ project-buieten-nc.html [R=301,L,NE]
+  RewriteRule ^work/?$ work.html [R=301,L,NE]
+  RewriteRule ^contact/?$ contact.html [R=301,L,NE]
+  RewriteRule ^about\-3/?$ index.html#office [R=301,L,NE]
+  RewriteRule ^about/?$ index.html#office [R=301,L,NE]
+  RewriteRule ^story\.html/?$ index.html#office [R=301,L,NE]
+  RewriteRule ^approach\.html/?$ index.html#office [R=301,L,NE]
+  RewriteRule ^prime\-hospitality\-zamalek/?$ project-prime-hospitality-zamalek.html [R=301,L,NE]
+  RewriteRule ^eden\-rock/?$ project-eden-rock.html [R=301,L,NE]
+  RewriteRule ^marsa\-elshams/?$ project-marsa-elshams.html [R=301,L,NE]
+</IfModule>
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml
+</IfModule>
+<IfModule mod_headers.c>
+  <FilesMatch "\.(html|json)$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+</IfModule>

@@ -1,0 +1,16 @@
+/* Supplied 1920 × 72 header: solid paper, fixed to the viewport. */
+:root{--header-height:72px}
+.site-header{position:fixed;top:0;left:0;right:0;height:72px;margin:0;padding:0;background:#f3f3ef;backdrop-filter:none;-webkit-backdrop-filter:none;opacity:1}
+@media(min-width:768px){.site-header .brand{top:19.5px}.site-header .site-nav,.site-header .archive-filters,.home-page .site-header>.language-toggle{top:23px}.site-header .site-nav a::after,.site-header .site-nav a[aria-current=page]::after,.site-header .archive-filters>*::after{top:29.68px;bottom:auto;height:1.9px}}
+@media(max-width:767px){.menu-open .site-header,.archive-filter-open .site-header{background:transparent}}
+.qdo-cursor .cursor-dot{width:23px!important;height:23px!important;border-radius:50%;background:#d1d1cb;opacity:1!important;filter:none!important;-webkit-backdrop-filter:none!important;backdrop-filter:none!important;border:0;box-shadow:none;transition:none}
+.qdo-cursor[data-mode=link] .cursor-dot{background:#161615}
+.qdo-cursor .cursor-project{display:none!important}
+.has-custom-cursor .project-card:hover .project-hover,.has-custom-cursor .project-card:focus-visible .project-hover{opacity:1!important}
+/* The contact form is English in either site language. */
+.contact-form{direction:ltr}
+.footer-exact>.footer-info-art{position:absolute;left:0;top:82.017%;width:100%;height:auto}
+.footer-motion{position:relative;width:100%;overflow:hidden;touch-action:pan-y;cursor:grab}
+.footer-motion-track{display:flex;gap:24px;width:max-content;will-change:transform;align-items:center}
+.footer-motion-track>img{display:block;flex:none;width:var(--footer-wordmark-width,100%)!important;max-width:none!important;height:auto!important;user-select:none;-webkit-user-drag:none}
+.footer-brand>.footer-motion{display:block}

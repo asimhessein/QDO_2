@@ -1,0 +1,29 @@
+/* Selected works use the same slightly portrait frame on both layouts. */
+/* Photos follow their own proportions; no fixed gray image grid. */
+.project-page{--photo-max-height:min(788px,calc(100svh - 140px))}
+.project-page .gallery-photo{height:auto!important;min-height:0;aspect-ratio:auto!important;background:transparent!important;align-self:start}
+.project-page .gallery-photo button{height:auto!important;min-height:0;background:transparent!important;display:flex;justify-content:center;align-items:flex-start;border-radius:inherit}
+.project-page .gallery-photo img{display:block;width:min(100%,calc(var(--photo-max-height) * var(--photo-ratio,1.5)))!important;height:auto!important;max-width:100%;max-height:none;border-radius:inherit}
+.qdo-gallery-stage,.qdo-gallery-thumb{background:transparent!important}
+.qdo-gallery-stage{display:flex;justify-content:center;align-items:center}
+.qdo-gallery-image{position:static!important;inset:auto!important;max-width:100%!important;max-height:100%!important;flex:none}
+.work-page .archive-insert{display:grid;place-items:center;grid-column:var(--insert-col);grid-row:var(--insert-row);width:100%;aspect-ratio:426/369.833;align-self:start;overflow:hidden;pointer-events:none}
+.work-page .archive-insert[hidden]{display:none!important}
+.work-page .archive-insert img{display:block;width:88%;height:88%;max-height:100%;object-fit:contain;transform:rotate(var(--paper-turn,0deg));user-select:none}
+.work-page .archive-insert{display:block;position:relative;min-width:0;min-height:0;overflow:visible;pointer-events:auto;cursor:grab;z-index:2;border:0;padding:0;margin:0;background:none}
+.work-page .archive-insert:active{cursor:grabbing}
+.work-page .archive-insert img{position:absolute;inset:6%;width:88%;height:88%;object-fit:contain!important;pointer-events:none}
+.work-page .archive-insert-pair img{left:9%;right:auto;width:82%;height:50%;top:7%;bottom:auto;transform:rotate(-5deg)}
+.work-page .archive-insert-pair img+img{top:44%;transform:rotate(5deg)}
+.project-page .gallery-photo img,.project-page .project-hero img,.qdo-gallery-image,.qdo-gallery-thumb img{object-fit:contain!important}
+.project-page .gallery-photo,.qdo-gallery-stage,.qdo-gallery-thumb{border-radius:12px!important}
+@media(max-width:767px){.project-page .gallery-photo,.qdo-gallery-stage,.qdo-gallery-thumb{border-radius:6px!important}}
+@media(max-height:540px) and (max-width:1024px){.qdo-gallery-stage,.qdo-gallery-thumb{border-radius:6px!important}}
+.contact-page .stories-host.stories-host-secondary{left:76.796875%;top:255.51px;width:16.171875%;z-index:1}
+.qw-stories .qw-story-video{position:absolute;inset:0;width:100%;height:100%;display:block;object-fit:cover;user-select:none}
+.qw-stories .qw-story-image[hidden],.qw-stories .qw-story-video[hidden]{display:none!important}
+@media(min-width:1200px) and (max-width:1700px){.contact-page .stories-host.stories-host-secondary{top:245px}}
+@media(min-width:768px) and (max-width:1199px){.contact-page .stories-host{left:calc(50% - 210px)}.contact-page .stories-host.stories-host-secondary{left:calc(50% + 30px);top:760px;width:180px}}
+@media(max-width:767px){.contact-page .stories-host.stories-host-secondary{display:none!important}.work-page .archive-insert{aspect-ratio:167/152.674}}
+@media(max-width:767px){.selected-card .project-picture{aspect-ratio:576/694.5!important;height:auto}.home-hero{height:100svh;min-height:0}.mobile-wordmark{top:18.4834svh;width:min(282px,33.4123svh);height:min(228px,27.0142svh)}.hero-track{top:50.9479svh;height:min(76px,9.0047svh)}.hero-details>.tagline{top:70.3791svh}.hero-down{top:calc(82svh - 22px)}.hero-details>span:first-child{top:86.7299svh}.hero-details>.coordinates{top:91.2322svh}}
+@media(min-width:768px){.home-hero{height:100svh;min-height:0}}

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="716.1 15 24 24" width="24" height="24"><defs>
+    <style>
+      .st0 {
+        fill: #f3f3ef;
+      }
+
+      .st1 {
+        fill: #633b33;
+      }
+
+      .st2 {
+        fill: #d1d1cb;
+      }
+
+      .st3 {
+        fill: #161615;
+      }
+    </style>
+  </defs>
+  <path class="st1" d="M728.1,15c-6.6,0-12,5.4-12,12s5.4,12,12,12,12-5.4,12-12-5.4-12-12-12Z"/>
+    </svg>
